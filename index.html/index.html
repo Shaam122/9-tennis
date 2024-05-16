@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tennis Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#players">Players</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Tennis</h2>
+            <p>Tennis is a racket sport that can be played individually against a single opponent (singles) or between two teams of two players each (doubles). The objective is to hit the ball over the net and into the opponent's court in a way that the opponent is not able to play a valid return.</p>
+            <img src="tennis.jpg" alt="Tennis" width="400">
+        </section>
+        <section id="players">
+            <h2>Players</h2>
+            <ul>
+                <li>Roger Federer</li>
+                <li>Rafael Nadal</li>
+                <li>Novak Djokovic</li>
+                <li>Naomi Osaka</li>
+                <li>Serena Williams</li>
+            </ul>
+        </section>
+        <section id="schedule">
+            <h2>Tournament Schedule</h2>
+            <table>
+                <tr>
+                    <th>Tournament</th>
+                    <th>Date</th>
+                </tr>
+                <tr>
+                    <td>Australian Open</td>
+                    <td>January</td>
+                </tr>
+                <tr>
+                    <td>French Open</td>
+                    <td>May - June</td>
+                </tr>
+                <tr>
+                    <td>Wimbledon</td>
+                    <td>June - July</td>
+                </tr>
+                <tr>
+                    <td>US Open</td>
+                    <td>August - September</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tennis Website</p>
+    </footer>
+</body>
+</html>
